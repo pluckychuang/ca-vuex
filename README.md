@@ -1,29 +1,5 @@
 # vuex
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 暴露`install`方法供Vue调用，在`vm`实例上挂载`$stroe`属性
+- 通过`new Vue`实现数据响应式
+- 核心是`ModuleCollection`类与`installModule`方法
